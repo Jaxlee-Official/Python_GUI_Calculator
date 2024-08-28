@@ -6,7 +6,7 @@ import numpy as np
 from threading import Thread
 
 def get_weather(city):
-    api_key = "6c6057c16e7e45939ce142629241608"  # Replace with your WeatherAPI key
+    api_key = ""  # Replace with your WeatherAPI key
     base_url = "http://api.weatherapi.com/v1/current.json"
     params = {'key': api_key, 'q': city}
     try:
